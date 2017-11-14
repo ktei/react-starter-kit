@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --history-api-fallback --hot --inline --progress --colors --port 3000",
+    "dev": "webpack-dev-server --history-api-fallback --progress --colors --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ktei2008@gmail.com",
@@ -27,14 +27,8 @@
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "bootstrap": "^3.3.7",
-    "classnames": "^2.2.5",
-    "gravatar-url": "^2.0.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-modal-dialog": "^4.0.7",
-    "react-router-dom": "^4.2.2"
+    "react-dom": "^15.6.1"
   },
   "importSort": {
     ".js, .jsx, .es6, .es, .css": {
