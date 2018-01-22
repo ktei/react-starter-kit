@@ -29,9 +29,6 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new OpenBrowserPlugin({ url: 'http://localhost:3000' })
-  ],
   devServer: {
     host: '0.0.0.0',
     overlay: true
